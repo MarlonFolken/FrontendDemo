@@ -6,16 +6,6 @@
 .padding-left-4 {
   padding-left: 7em; }
 
-#leWrap {
-  background-image: url(../img/wood01.jpg);
-  display: inline-block;
-  width: 100vw;
-  height: 100vh; }
-
-/* HEADER */
-nav {
-  font-weight: bold; }
-
 .pin {
   position: fixed;
   top: 0%;
@@ -30,6 +20,16 @@ nav {
     width: 3em;
     height: 3em;
     margin: 0.6em 0 0 0.6em; }
+
+#leWrap {
+  background-image: url(../img/wood01.jpg);
+  display: inline-block;
+  width: 100vw;
+  height: 100vh; }
+
+/* HEADER */
+nav {
+  font-weight: bold; }
 
 /* SECTION */
 section {

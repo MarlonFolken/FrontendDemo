@@ -15,3 +15,20 @@ $screen-xs-max: 767px;
 .padding-left-4{
   padding-left: 7em;
 }
+
+.pin{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 1031; //bootstrap sets to 1030 its header navbar-fixed-top elements
+  width: 12em;
+  height: 12em;
+  background-color: lightgray;
+  -webkit-clip-path: circle(50% at 10% 10%);
+  clip-path: circle(50% at 1% 7%);
+  .pin-img{
+    width: 3em;
+    height: 3em;
+    margin: 0.6em 0 0 0.6em;
+  }
+}
