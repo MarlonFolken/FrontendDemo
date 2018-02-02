@@ -1,0 +1,72 @@
+/* GENERAL RULES */
+@import "common";
+
+section{
+  margin: 5em 0 0 5em;
+  display: flex;
+}
+
+#limited-move{
+  display: inline-block;
+  margin: 2em;
+  padding: 1em;
+  background-color: ghostwhite;
+  width: 20vw;
+  height: 300px;
+  
+  #containment-wrapper{
+    height: 200px;
+    width: 200px;
+  }
+  p{
+    padding: 0.5em;
+  }
+}
+
+/* TRANSFORM AND TRANSITION */
+
+.transition-article{
+  position: relative;
+  background: url("../img/night_stars.jpg") no-repeat;
+  margin: 2em;
+  width: 40vw;
+  height: 300px;
+  color: white;
+  h4{
+    text-align: center;
+  }
+}
+//stickers
+.moon {
+  top: 45%;
+  left: 44%;
+  width: 70px;
+  height: 70px;
+}
+.candle {
+  bottom: 8%;
+  left: 5%;
+  width: 70px;
+  height: 70px;
+}
+//transition
+.object{
+  position: absolute;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+  -moz-transition: all 2s ease-in-out; /** Firefox **/
+  -o-transition: all 2s ease-in-out; /** Opera **/
+}
+//Transform
+#horizontal:hover .move-right{
+  transform: translate(70px,0);
+  -webkit-transform: translate(70px,0);
+  -o-transform: translate(70px,0);
+  -moz-transform: translate(70px,0);
+}
+#grow:hover .flash{
+  transform: scale(1.8);
+  -webkit-transform: scale(1.8);
+  -o-transform: scale(1.8); 
+  -moz-transform: scale(1.8);
+}
