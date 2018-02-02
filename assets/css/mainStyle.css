@@ -51,4 +51,11 @@ section {
       text-decoration: none;
       color: white; }
 
+#under-const p:after {
+  font-size: 1.2em;
+  content: "SIN CONSTRUIR";
+  font-weight: bold;
+  color: black;
+  text-shadow: 1px 1px 0 darkgrey; }
+
 /*# sourceMappingURL=mainStyle.css.map */
