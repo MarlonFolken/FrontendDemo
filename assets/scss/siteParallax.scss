@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+}
+section{
+  margin: 0;
+}
+#leStatic01{
+  height: 90vh;
+  min-height: 100%;
+  background: {
+    image: url("../img/house_windows.jpeg");
+    attachment: fixed;
+    position: relative;
+    repeat: no-repeat;
+    size: cover;
+  }
+}
+#leStatic02{
+  height: 90vh;
+  min-height: 100%;
+  background: {
+    image: url("../img/woodfine.jpg");
+    attachment: fixed;
+    position: relative;
+    repeat: no-repeat;
+    size: cover;
+  }
+}
+
+#infoPa01{
+  background-image: url("../img/whiteblock.jpg");
+  padding: 2em 4em;
+  article{
+    border: 3px inset;
+    padding: 2em;
+    background-color: hsla(69, 5%, 74%, 0.57);
+    font-size: 2em;
+    font-family: cwmagik;
+    letter-spacing: 1px;
+  }
+}

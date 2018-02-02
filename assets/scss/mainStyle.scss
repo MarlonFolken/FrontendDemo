@@ -1,5 +1,10 @@
 //General rules
 
+@font-face {
+  font-family: 'cwmagik';
+  src: url("../font/CWMAGIK_.TTF") format("truetype");
+}
+
 $screen-lg-min: 1200px;
 $screen-md-max: 1199px;
 $screen-md-min: 992px;
