@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<HTML lang="es">
+<HEAD>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="frontend, css, style">
+    
+    <title>Demos frontend</title>
+    
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/jquery-ui.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../../assets/css/sitePosition.css">
+</HEAD>
+<BODY>
+  <header>
+    <a href="../index.html" class="pin">
+      <img src="../../assets/img/home.png" class="pin-img"></img>
+    </a>
+  </header>
+
+  <section>
+    <article id="limited-move">
+      <h4>Recuadros moviles pero restringidos</h4>
+
+      <div id="draggable1" class="draggable ui-widget-content">
+        <p>Tomar y mover verticalmente</p>
+      </div>
+        
+      <div id="draggable2" class="draggable ui-widget-content">
+        <p>Tomar y mover horizontalmente</p>
+      </div>
+        
+      <h3>Recuadros limitados a su contenedor</h3>
+      <div id="containment-wrapper">
+        <div id="draggable3" class="draggable ui-widget-content">
+          <p>Tomar y bajar al tope</p>
+        </div>
+        
+        <div class="draggable ui-widget-content">
+          <p id="draggable4" class="ui-widget-header">Este recuadro está muy limitado</p>
+        </div>
+      </div>
+    </article>
+    <article class="transition-article">
+      <h4>Pasar el cursor encima de los objetos</h4>
+      <div id="horizontal" class="transform01">
+        <img class="object moon move-right" src="../../assets/img/create_moon.png" />
+      </div>
+      <div id="grow" class="transform02">
+          <img class="object candle flash" src="../../assets/img/candle.png" />
+      </div>
+    </article>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="../../assets/js/jquery-ui.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="../../assets/js/page-position.js"></script>
+</BODY>
+</HTML>

@@ -1,0 +1,86 @@
+/* GENERAL RULES */
+/*APPLICABLE RULES TO EVERY PAGE*/
+@font-face {
+  font-family: 'cwmagik';
+  src: url("../font/CWMAGIK_.TTF") format("truetype"); }
+.padding-left-4 {
+  padding-left: 7em; }
+
+.pin {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 1031;
+  width: 12em;
+  height: 12em;
+  background-color: lightgray;
+  -webkit-clip-path: circle(50% at 10% 10%);
+  clip-path: circle(50% at 1% 7%); }
+  .pin .pin-img {
+    width: 3em;
+    height: 3em;
+    margin: 0.6em 0 0 0.6em; }
+
+section {
+  margin: 5em 0 0 5em;
+  display: flex; }
+
+#limited-move {
+  display: inline-block;
+  margin: 2em;
+  padding: 1em;
+  background-color: ghostwhite;
+  width: 20vw;
+  height: 300px; }
+  #limited-move #containment-wrapper {
+    height: 200px;
+    width: 200px; }
+  #limited-move p {
+    padding: 0.5em; }
+
+/* TRANSFORM AND TRANSITION */
+.transition-article {
+  position: relative;
+  background: url("../img/night_stars.jpg") no-repeat;
+  margin: 2em;
+  width: 40vw;
+  height: 300px;
+  color: white; }
+  .transition-article h4 {
+    text-align: center; }
+
+.moon {
+  top: 45%;
+  left: 44%;
+  width: 70px;
+  height: 70px; }
+
+.candle {
+  bottom: 8%;
+  left: 5%;
+  width: 70px;
+  height: 70px; }
+
+.object {
+  position: absolute;
+  transition: all 2s ease-in-out;
+  -webkit-transition: all 2s ease-in-out;
+  /** Chrome & Safari **/
+  -moz-transition: all 2s ease-in-out;
+  /** Firefox **/
+  -o-transition: all 2s ease-in-out;
+  /** Opera **/ }
+
+#horizontal:hover .move-right {
+  transform: translate(70px, 0);
+  -webkit-transform: translate(70px, 0);
+  -o-transform: translate(70px, 0);
+  -moz-transform: translate(70px, 0); }
+
+#grow:hover .flash {
+  transform: scale(1.8);
+  -webkit-transform: scale(1.8);
+  -o-transform: scale(1.8);
+  -moz-transform: scale(1.8); }
+
+/*# sourceMappingURL=sitePosition.css.map */
