@@ -38,7 +38,8 @@ section {
   padding: 1.5em;
   border-radius: 10px;
   background-color: rgba(80, 158, 226, 0.62);
-  color: white; }
+  color: white;
+  letter-spacing: 1px; }
   .card .card-h {
     text-shadow: 1px 1px 0 #154d7f, -1px -1px 0 #154d7f, 1px -1px 0hsla 208, 72%, 29%, 1, -1px 1px 0 #154d7f, 1px 1px 0 #154d7f; }
 
