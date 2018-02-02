@@ -1,9 +1,18 @@
+/* GENERAL RULES */
+/*APPLICABLE RULES TO EVERY PAGE*/
+@font-face {
+  font-family: 'cwmagik';
+  src: url("../font/CWMAGIK_.TTF") format("truetype"); }
+.padding-left-4 {
+  padding-left: 7em; }
+
 body {
   height: 100%; }
 
 section {
   margin: 0; }
 
+/* SPECIFIC TO EVERY SECTION */
 #leStatic01 {
   height: 90vh;
   min-height: 100%;

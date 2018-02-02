@@ -1,14 +1,16 @@
+/* GENERAL RULES */
+/*APPLICABLE RULES TO EVERY PAGE*/
 @font-face {
   font-family: 'cwmagik';
   src: url("../font/CWMAGIK_.TTF") format("truetype"); }
+.padding-left-4 {
+  padding-left: 7em; }
+
 #leWrap {
   background-image: url(../img/wood01.jpg);
   display: inline-block;
   width: 100vw;
   height: 100vh; }
-
-.padding-left-4 {
-  padding-left: 7em; }
 
 /* HEADER */
 nav {

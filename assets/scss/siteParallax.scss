@@ -1,9 +1,14 @@
+/* GENERAL RULES */
+@import "common";
+
 body {
   height: 100%;
 }
 section{
   margin: 0;
 }
+
+/* SPECIFIC TO EVERY SECTION */
 #leStatic01{
   height: 90vh;
   min-height: 100%;
