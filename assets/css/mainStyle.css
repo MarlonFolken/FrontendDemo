@@ -1,3 +1,6 @@
+@font-face {
+  font-family: 'cwmagik';
+  src: url("../font/CWMAGIK_.TTF") format("truetype"); }
 #leWrap {
   background-image: url(../img/wood01.jpg);
   display: inline-block;
@@ -42,5 +45,8 @@ section {
   letter-spacing: 1px; }
   .card .card-h {
     text-shadow: 1px 1px 0 #154d7f, -1px -1px 0 #154d7f, 1px -1px 0hsla 208, 72%, 29%, 1, -1px 1px 0 #154d7f, 1px 1px 0 #154d7f; }
+    .card .card-h a {
+      text-decoration: none;
+      color: white; }
 
 /*# sourceMappingURL=mainStyle.css.map */
