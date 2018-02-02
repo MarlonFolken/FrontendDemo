@@ -64,6 +64,10 @@ section{
       -1px -1px 0 hsla(208, 72%, 29%, 1),
       1px -1px 0hsla(208, 72%, 29%, 1),
       -1px 1px 0 hsla(208, 72%, 29%, 1),
-      1px 1px 0 hsla(208, 72%, 29%, 1)
+      1px 1px 0 hsla(208, 72%, 29%, 1);
+    a{
+      text-decoration: none;
+      color: white;
+    }
   }
 }
