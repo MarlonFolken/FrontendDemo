@@ -9,3 +9,8 @@ ehthumbs.db
 *.apdisk
 *.dll
 *.dmg
+
+#IDE
+*.vscode
+settings.json
+*.sass-cache
