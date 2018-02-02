@@ -1,5 +1,15 @@
+#leWrap {
+  background-image: url(../img/wood01.jpg);
+  display: inline-block;
+  width: 100vw;
+  height: 100vh; }
+
 .padding-left-4 {
   padding-left: 7em; }
+
+/* HEADER */
+nav {
+  font-weight: bold; }
 
 .pin {
   position: fixed;
@@ -15,5 +25,21 @@
     width: 3em;
     height: 3em;
     margin: 0.6em 0 0 0.6em; }
+
+/* SECTION */
+section {
+  margin: 7em 5em 2em; }
+  @media (max-width: 767px) {
+    section {
+      margin: 13em 3em 1em; } }
+
+.card {
+  margin: 3em 1.5em;
+  padding: 1.5em;
+  border-radius: 10px;
+  background-color: rgba(80, 158, 226, 0.62);
+  color: white; }
+  .card .card-h {
+    text-shadow: 1px 1px 0 #154d7f, -1px -1px 0 #154d7f, 1px -1px 0hsla 208, 72%, 29%, 1, -1px 1px 0 #154d7f, 1px 1px 0 #154d7f; }
 
 /*# sourceMappingURL=mainStyle.css.map */
